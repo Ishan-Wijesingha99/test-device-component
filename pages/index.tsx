@@ -8,12 +8,19 @@ export default function Home() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          margin: "auto",
           flexDirection: "column",
+          marginTop: "auto",
+          marginBottom: "auto",
         }}
       >
-        <h2>I've said it before and I'll say it again.</h2>
-        <p>I've said it before.</p>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/blnq-nonprod.appspot.com/o/card_email_previews%2FJ7T5ICCgW7f5?alt=media"
+          alt=""
+          style={{
+            maxWidth: "80%",
+            maxHeight: "90%",
+          }}
+        />
       </PhoneFrame>
     </>
   );
